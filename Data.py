@@ -8,35 +8,36 @@
 
 ##Como primer ejemplo tenemos un diccionario general con diferentes conceptos y vamos a exceder a el
 
-data = {'nombre': 'Brenda', 'edad': 25, 'carrera': 'TICs' }
+person_info = {'nombre': 'Brenda', 'edad': 25, 'carrera': 'TICs' }
 
-print (data['nombre'])
-print (data['edad'])
-print (data['carrera'])
+print (person_info['nombre'])
+print (person_info['edad'])
+print (person_info['carrera'])
 
 
-print('')
-print('')
-print('')
+print('\n\n')
 
 ##Listado dentro de un diccionario de datos
 
-data2 = {'medicamentos': ['Paracetamol', 'Ketorolaco','Ibuprofeno','Naproxeno']}
+medicines = {'medicamentos': ['Paracetamol', 'Ketorolaco','Ibuprofeno','Naproxeno']}
 
-print (data2['medicamentos'][3])
-print (data2['medicamentos'][2])
-print (data2['medicamentos'][1])
-print (data2['medicamentos'][0])
+print (medicines['medicamentos'][3])
+print (medicines['medicamentos'][2])
+print (medicines['medicamentos'][1])
+print (medicines['medicamentos'][0])
 
-print('')
-print('')
-print('')
+print('\n\n')
 ##For para recorrer todo el listado de medicamentos
 
-for key in data2:
-	print (key, ":", data2[key])
+for key in medicines:
+	print (key, ":", medicines[key])
+
+print('\n\n')
 
 ##Zip recibe elementos iterables, ya sea una cadena, una lista o una tupla.
 
-data3 = zip('Brenda',[1,2,3,4,5,6])
-	print (data3['Brenda'])
+name = ('Brenda','Leo','Edgar')
+first_name = ('Gutierrez','Ramirez','Gonzalez')
+
+x = zip(name, first_name)
+print (tuple(x))
