@@ -2,39 +2,34 @@
 
 ## 1)
 
-for i in range (25,36):
+for i in range (25, 36):
 	print (i)
 
-print('')
-print('')
+print ('\n\n')
 
-for i in range(101):
-	print(i)
+for i in range (101):
+	print (i)
 
-print('')
-print('')
+print ('\n\n')
 
-for i in range (20,41):
-	print(i)
+for i in range (20, 41):
+	print (i)
 
-print('')
-print('')
+print ('\n\n')
 
 ## 2)
 
 i = 1
 
 while i < 101:
-	print(i)
+	print (i)
 	i+=1
 
-print('')
-print('')
+print ('\n\n')
 
 e = 2 
 
 while e < 101:
-	print(e)
+	print (e)
 	e+=2
-print('')
-print('')
+print ('\n\n')
