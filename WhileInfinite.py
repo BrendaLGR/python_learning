@@ -3,15 +3,11 @@
 
 ##import atexit ##Detecta la salida del script
 
-class WhileInfinite():
+#num = int(input("Escribe un numero: "))
 
-
-	n = input("N: ")
-
-	while True:
-		if n == 33:
-			break
-		else:
-			print("Eres feo")
-			
-		
+while True:
+	num = int(input("Escribe un numero: "))
+	if num == 33:
+		break
+	else:
+		print("Eres feo")
