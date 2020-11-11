@@ -4,16 +4,13 @@
 
 print("Suma de números")
 
-print ('\n')
+print('\n')
 
-numero = int(input("Escribe cuantos números quieres sumar"))
+numero = int(input("Escribe cuantos números quieres sumar:  "))
 
 suma = 0
 
 for i in range(numero):
-
 	nro = int(input("Numero: "))
-	
-	suma = suma+nro
-	
+	suma += nro
 print("La suma de los números es: ", suma)
