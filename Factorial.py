@@ -26,4 +26,4 @@ print("n: ",numero)
 while(numero != 0):
 	factorial = factorial * numero
 	numero = numero -1
-print (num,"!=", factorial)
+print (f"{num} != {factorial}")
