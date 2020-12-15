@@ -7,8 +7,5 @@
 
 x = float(input("Coloque el primer número: " ))
 y = float(input("Coloque el segundo número: " ))
-
-
 division = x // y
-
 print("Resultado de la division: ", division)
