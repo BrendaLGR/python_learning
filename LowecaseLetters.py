@@ -2,4 +2,4 @@
 
 a = input("Escribe un nombre en mayusculas: ")
 
-print (a.lower())
+print(a.lower())
