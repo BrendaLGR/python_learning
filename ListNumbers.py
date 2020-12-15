@@ -6,16 +6,14 @@ lista = [1, 2, 3, 4, 6, 7, 8, 10]
 
 n = int(input("Escribe un numero: "))
 
-def test_prime(n, lista):
+def test(n, lista):
 
     if (n in lista):
 
         return True
-        print(test_prime(n,lista))
 
     else:
 
         return False
-        print(test_prime(n,lista))
 
-print(test_prime(n,lista), "En la lista")
+print(test(n,lista), "En la lista")
