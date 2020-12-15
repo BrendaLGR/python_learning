@@ -2,26 +2,14 @@
 
 
 n = int(input("Coloca un numero: "))
-
-
-def test_prime(n):
-
-    if (n == 1):
-
+def is_prime(n):
+    if n == 1:
         return False
-
-    elif (n == 2):
-
+    elif n == 2:
         return True
-
     else:
-
-        for x in range(2,n):
-
+        for x in range(2, n):
             if(n % x == 0):
-
                 return False
-
         return True 
-
-print("Este número es: ", test_prime(n))
+print("Este número es: ", is_prime(n))
