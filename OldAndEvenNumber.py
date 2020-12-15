@@ -6,8 +6,8 @@
 num = int(input("Ingrese el numero: "))
 
 if num % 2 == 0:
-	num = True
+	
 	print("El numero es par: ", True)
 else:
-	num = False
+	
 	print("El numero es impar:", False)
