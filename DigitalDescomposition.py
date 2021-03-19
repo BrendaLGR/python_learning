@@ -13,7 +13,7 @@ if(numero >= 100):
 		c = (numero % 100) %10 /10
 		print(a, b, c)
 	else:
-		print("Ese no es el numero")
+		print("Ese no es el número")
 else:
-	print("Ese no es el numero")
+	print("Ese no es el número")
 

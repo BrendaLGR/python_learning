@@ -27,6 +27,7 @@ print (medicines['medicamentos'][1])
 print (medicines['medicamentos'][0])
 
 print('\n\n')
+
 ##For para recorrer todo el listado de medicamentos
 
 for key in medicines:
