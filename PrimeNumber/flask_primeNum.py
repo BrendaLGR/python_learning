@@ -5,8 +5,7 @@ app = Flask(__name__)
 
 @app.route('/prime/<int:num>', methods=['GET'])
 def get_primeNum(num):
-    result = is_prime(num)
-    if result == True:
+    if is_prime(num):
         return jsonify({'numero': num, 'resultado': 'es primo'})
     else:
         return jsonify ({'numero': num, 'resultado': 'no es primo'})
